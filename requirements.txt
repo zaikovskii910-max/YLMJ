@@ -9,3 +9,4 @@ xmltodict>=0.13.0
 apscheduler>=3.10.0
 google-genai>=0.1.0
 asyncio
+aiosqlite
