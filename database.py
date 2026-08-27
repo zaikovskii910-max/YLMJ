@@ -117,7 +117,7 @@ async def init_db():
     await load_country_list()
 
 async def load_country_list():
-    path = "static\countrycodes.txt"
+    path = "static/countrycodes.txt"
     async with async_session() as session:
         result = await session.execute(select(Countrycodes))
         if result.scalars().first() is not None:
@@ -146,7 +146,7 @@ async def load_country_list():
 
 
 async def load_songs_to_database():
-    file_path = "static\avaible_songs.txt"
+    file_path = "static/avaible_songs.txt"
     async with async_session() as session:
         result = await session.execute(select(TrackData))
         if result.scalars().first() is not None:
