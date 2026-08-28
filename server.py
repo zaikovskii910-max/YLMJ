@@ -322,6 +322,10 @@ app = FastAPI(title="YLMJ", lifespan=lifespan)
 client = genai.Client(api_key=GEMINI_API_KEY)
 
 #api endpoints
+@app.get('/api/heathcheck')
+async def healthcheck():
+    return{'status':'-- Server status: live'}
+
 @app.post("/api/preferences")
 async def update_preferences(user_description: str, user_id: int): 
     if not user_description.strip():
