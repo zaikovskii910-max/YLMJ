@@ -4,6 +4,7 @@ import datetime
 import requests
 import bcrypt
 from fastapi import FastAPI, HTTPException, status
+from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 import uvicorn
 from sqlalchemy.future import select
