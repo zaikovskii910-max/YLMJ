@@ -257,6 +257,13 @@ async def lifespan(app: FastAPI):
 
 #app definition/api settings
 app = FastAPI(title="YLMJ", lifespan=lifespan)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  
+    allow_credentials=True,
+    allow_methods=["*"], 
+    allow_headers=["*"], 
+)
 client = genai.Client(api_key=GEMINI_API_KEY)
 
 #api endpoints
