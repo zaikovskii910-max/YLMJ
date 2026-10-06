@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict
 import datetime
 from typing import Optional
 
@@ -9,6 +9,7 @@ class ChatSendMessage(BaseModel):
     timestamp: datetime.datetime
 
 class ChatMessageResponse(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
     id: int
     user_id: int
     sender: str
