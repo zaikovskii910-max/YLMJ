@@ -95,6 +95,13 @@ def get_region_code(city:str) -> int:
     codes = return_codes()
     return codes.get(city,0000)
 
+async def get_chat_history(user_id:int):
+    async with async_session() as session:
+        query = select(Chat).where(Chat.user_id == user_id)
+        result = await session.execute(query)
+        chat_history = result.scalars().all()
+        return chat_history
+		
 async def fetch_weather(lat: int, long: int) -> str:
     url = "https://api.open-meteo.com/v1/forecast"
     params = {
@@ -528,12 +535,9 @@ async def get_evening_info(date: datetime.date, user_id: int):
         return data
 
 @app.get('/api/chat/get_chat_history', response_model = list[ChatMessageResponse])
-async def get_chat_history(user_id:int):
-    async with async_session() as session:
-        query = select(Chat).where(Chat.user_id == user_id)
-        result = await session.execute(query)
-        chat_history = result.scalars().all()
-        return chat_history
+async def get_history(user_id:int):
+    history = await get_chat_history(user_id)
+    return history
 
 @app.post('/api/chat/send_message')
 async def send_message(data:ChatSendMessage):
@@ -546,9 +550,15 @@ async def send_message(data:ChatSendMessage):
         session.add(new_message)
         await session.commit()
     promt = data.message_text
+    history = [ChatMessageResponse.model_validate(chat).model_dump() for chat in (await get_chat_history(data.user_id))]
+    if len(history)>10:
+        history = history[:10]
     response = await client.aio.models.generate_content(
         model='gemini-3.1-flash-lite',
         contents=promt,
+        config=types.GenerateContentConfig(
+            system_instruction=f"история чата пользователя:{history}"
+            ),
         )
     answer = response.text
     async with async_session() as session:
