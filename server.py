@@ -485,7 +485,7 @@ async def get_event(id:int):
                 detail=f"-! Server error: event with id {id} not found"
             )
 
-@app.post('/api/get_evening_info', response_model = GeminiEveningResponse)
+@app.get('/api/get_evening_info', response_model = GeminiEveningResponse)
 async def get_evening_info(date: datetime.date, user_id: int):
     async with async_session() as session:
         query = select(Schedule).where(Schedule.user_id == user_id, Schedule.event_date == date)
