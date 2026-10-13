@@ -557,7 +557,7 @@ async def send_message(data:ChatSendMessage):
     history = [ChatMessageResponse.model_validate(chat).model_dump() for chat in (await get_chat_history(data.user_id))]
     if len(history)>10:
         history = history[:10]
-	async with async_session() as session:
+    async with async_session() as session:
         query = select(Schedule).where(Schedule.user_id == data.user_id, Schedule.event_date == date.today())
         result = await session.execute(query)
         events = result.scalars().all()
