@@ -1,6 +1,7 @@
 #Imports
 import os
 import datetime
+from datetime import date
 import requests
 import bcrypt
 from fastapi import FastAPI, HTTPException, status
@@ -229,7 +230,10 @@ async def check_and_prepare_alarms():
                 alarm.ai_advice = f"{ai_data.greeting}{ai_data.action_advice}"
                 alarm.audio_url = final_audio_url
                 alarm.is_ready = True  
-
+				new_string =    MorningHistory(
+                    user_id = alarm.user_id,
+                    morning_track= track_title_to_find)
+                session.add(new_string)
                 await session.commit()
                 print(f"-- Server info: alarm with id {alarm.id} get ready now!")
                 
@@ -553,11 +557,23 @@ async def send_message(data:ChatSendMessage):
     history = [ChatMessageResponse.model_validate(chat).model_dump() for chat in (await get_chat_history(data.user_id))]
     if len(history)>10:
         history = history[:10]
+	async with async_session() as session:
+        query = select(Schedule).where(Schedule.user_id == data.user_id, Schedule.event_date == date.today())
+        result = await session.execute(query)
+        events = result.scalars().all()
+        user_schedule = [Schedule_short_respose(
+                id = event.id, 
+                user_id = event.user_id,
+                event_title = event.event_title,
+                event_time = event.event_time
+            ) for event in events]
+	
     response = await client.aio.models.generate_content(
         model='gemini-3.1-flash-lite',
         contents=promt,
         config=types.GenerateContentConfig(
-            system_instruction=f"история чата пользователя:{history}"
+            system_instruction=(f"история чата пользователя:{history}"
+                f'Расписание пользователя на сегодня:{user_schedule}')
             ),
         )
     answer = response.text
