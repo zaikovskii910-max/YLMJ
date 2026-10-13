@@ -230,7 +230,7 @@ async def check_and_prepare_alarms():
                 alarm.ai_advice = f"{ai_data.greeting}{ai_data.action_advice}"
                 alarm.audio_url = final_audio_url
                 alarm.is_ready = True  
-				new_string = MorningHistory(
+                new_string = MorningHistory(
                     user_id = alarm.user_id,
                     morning_track= track_title_to_find)
                 session.add(new_string)
@@ -567,7 +567,6 @@ async def send_message(data:ChatSendMessage):
                 event_title = event.event_title,
                 event_time = event.event_time
             ) for event in events]
-	
     response = await client.aio.models.generate_content(
         model='gemini-3.1-flash-lite',
         contents=promt,
