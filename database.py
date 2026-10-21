@@ -60,6 +60,13 @@ class TrackData(Base):
     track: Mapped[str]  = mapped_column(String(255))
     play_url: Mapped[str] = mapped_column(String(255))
 
+class GeometryDashEdition(Base):
+    __tablename__ = "GeometryDashData"
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    track: Mapped[str]  = mapped_column(String(255))
+    play_url: Mapped[str] = mapped_column(String(255))
+
 
 class MorningHistory(Base):
     __tablename__  = 'MorningHistory'
@@ -115,6 +122,7 @@ async def init_db():
         await conn.run_sync(Base.metadata.create_all)
     await load_songs_to_database()
     await load_country_list()
+    await load_geometry_dash_songs_to_database()
 
 async def load_country_list():
     path = "static/countrycodes.txt"
@@ -172,3 +180,29 @@ async def load_songs_to_database():
         await session.commit()
         print("-- Base: Track loading complete!")
 
+async def load_geometry_dash_songs_to_database():
+    file_path = "static/geometry_dash_songs.txt"
+    async with async_session() as session:
+        result = await session.execute(select(GeometryDashEdition))
+        if result.scalars().first() is not None:
+            print("-- Base: No need to load geometry dash songs")
+            return
+
+        print(f"-- Base: Loading geometry dash track data.Path: {file_path}")
+        with open(file_path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("#"):
+                    continue
+                try:
+                    parts = line.split(";")
+                    id = int(parts[0])
+                    track = parts[1]
+                    play_url = parts[2]
+                    track = GeometryDashEdition(id=id, track=track, play_url=play_url)
+                    session.add(track)
+                except Exception as e:
+                    print(f"-! Base: tracks parsing error: line:'{line}' error: {e}")
+                    
+        await session.commit()
+        print("-- Base: Track loading complete!")
