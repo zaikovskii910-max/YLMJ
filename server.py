@@ -204,7 +204,7 @@ async def check_and_prepare_alarms():
                 )
                                
                 response = await client.aio.models.generate_content(
-                    model='gemini-3.1-flash-lite',
+                    model='gemini-flash-lite-latest',
                     contents=context_prompt,
                     config=types.GenerateContentConfig(
                         response_mime_type="application/json",
