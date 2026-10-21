@@ -1,0 +1,100 @@
+1;Boom Kitty - Power Trip;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Boom%20Kitty%20-%20Power%20Trip.mp3
+2;Bossfight - Nock Em;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Bossfight%20-%20Nock%20Em.mp3
+3;Creo - 322;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20322.mp3
+4;Creo - Ahead of the Curve;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Ahead%20of%20the%20Curve.mp3
+5;Creo - Aurora;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Aurora.mp3
+6;Creo - Avalanche;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Avalanche.mp3
+7;Creo - Crazy;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Crazy.mp3
+8;Creo - Crystallize;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Crystallize.mp3
+9;Creo - Dimension;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Dimension.mp3
+10;Creo - Drift;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Drift.mp3
+11;Creo - Dune;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Dune.mp3
+12;Creo - Epilogue;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Epilogue.mp3
+13;Creo - Evolution;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Evolution.mp3
+14;Creo - Exoplanet;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Exoplanet.mp3
+15;Creo - Flow;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Flow.mp3
+16;Creo - Idolize;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Idolize.mp3
+17;Creo - In Circles;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20In%20Circles.mp3
+18;Creo - Lightmare;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Lightmare.mp3
+19;Creo - Memory;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Memory.mp3
+20;Creo - Nautilus;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Nautilus.mp3
+21;Creo - Never Make It;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Never%20Make%20It.mp3
+22;Creo - Octane;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Octane.mp3
+23;Creo - Outlaw;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Outlaw.mp3
+24;Creo - Place On Fire;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Place%20On%20Fire.mp3
+25;Creo - Red Haze;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Red%20Haze.mp3
+26;Creo - Reflections;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Reflections.mp3
+27;Creo - Rock Thing;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Rock%20Thing.mp3
+28;Creo - Showdown;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Showdown.mp3
+29;Creo - Sky and Soul;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Sky%20and%20Soul.mp3
+30;Creo - Slow Down;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Slow%20Down.mp3
+31;Creo - Sphere;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Creo%20-%20Sphere.mp3
+32;Dex Arson - Beast Mode;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Dex%20Arson%20-%20Beast%20Mode.mp3
+33;Dex Arson - Frontlines;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Dex%20Arson%20-%20Frontlines.mp3
+34;Dex Arson - Machina;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Dex%20Arson%20-%20Machina.mp3
+35;Dex Arson - Payload;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Dex%20Arson%20-%20Payload.mp3
+36;Dimrain47 - At the Speed of Light;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Dimrain47%20-%20At%20the%20Speed%20of%20Light.mp3
+37;DJ-Nate - Clubstep;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/DJ-Nate%20-%20Clubstep.mp3
+38;DJ-Nate - Electroman Adventures;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/DJ-Nate%20-%20Electroman%20Adventures.mp3
+39;DJ-Nate - Theory of Everything 2;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/DJ-Nate%20-%20Theory%20of%20Everything%202.mp3
+40;DJ-Nate - Theory of Everything;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/DJ-Nate%20-%20Theory%20of%20Everything.mp3
+41;DJVI - Back On Track;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/DJVI%20-%20Back%20On%20Track.mp3
+42;DJVI - Base After Base;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/DJVI%20-%20Base%20After%20Base.mp3
+43;DJVI - Can't Let Go;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/DJVI%20-%20Can%27t%20Let%20Go.mp3
+44;DJVI - Cycles;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/DJVI%20-%20Cycles.mp3
+45;DJVI - Dry Out;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/DJVI%20-%20Dry%20Out.mp3
+46;DJVI - Polargeist;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/DJVI%20-%20Polargeist.mp3
+47;DJVI - xStep;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/DJVI%20-%20xStep.mp3
+48;F-777 - Airborne Robots;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/F-777%20-%20Airborne%20Robots.mp3
+49;F-777 - Blast Processing;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/F-777%20-%20Blast%20Processing.mp3
+50;F-777 - Dance of The Violins;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/F-777%20-%20Dance%20of%20The%20Violins.mp3
+51;F-777 - Deadlocked;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/F-777%20-%20Deadlocked.mp3
+52;F-777 - Monster Dance Off;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/F-777%20-%20Monster%20Dance%20Off.mp3
+53;F-777 - Sonic Blaster;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/F-777%20-%20Sonic%20Blaster.mp3
+54;F-777 - The Seven Seas;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/F-777%20-%20The%20Seven%20Seas.mp3
+55;F-777 - Viking Arena;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/F-777%20-%20Viking%20Arena.mp3
+56;F-777 - Years;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/F-777%20-%20Years.mp3
+57;ForeverBound - Stereo Madness;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/ForeverBound%20-%20Stereo%20Madness.mp3
+58;Goukisan - Betrayal of Fate;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Goukisan%20-%20Betrayal%20of%20Fate.mp3
+59;Goukisan - Betrayal of Fear;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Goukisan%20-%20Betrayal%20of%20Fear.mp3
+60;MDK - Dash;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/MDK%20-%20Dash.mp3
+61;MDK - Fingerdash;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/MDK%20-%20Fingerdash.mp3
+62;MDK - Press Start;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/MDK%20-%20Press%20Start.mp3
+63;Waterflame - Blastfire;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Blastfire.mp3
+64;Waterflame - Clutterfunk;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Clutterfunk.mp3
+65;Waterflame - Electrodynamix;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Electrodynamix.mp3
+66;Waterflame - Endgame;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Endgame.mp3
+67;Waterflame - Field of Memories;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Field%20of%20Memories.mp3
+68;Waterflame - Final Battle;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Final%20Battle.mp3
+69;Waterflame - Fracture;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Fracture.mp3
+70;Waterflame - Geometrical Dominator;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Geometrical%20Dominator.mp3
+71;Waterflame - Glorious Morning 2;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Glorious%20Morning%202.mp3
+72;Waterflame - Glorious Morning;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Glorious%20Morning.mp3
+73;Waterflame - Hexagon Force;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Hexagon%20Force.mp3
+74;Waterflame - Jumper;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Jumper.mp3
+75;Waterflame - Meltdown;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Meltdown.mp3
+76;Waterflame - Pain Engine;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Pain%20Engine.mp3
+77;Waterflame - Race Against Time;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Race%20Against%20Time.mp3
+78;Waterflame - Radio Silence;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Radio%20Silence.mp3
+79;Waterflame - Ricochet Love;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Ricochet%20Love.mp3
+80;Waterflame - Round 1;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Round%201.mp3
+81;Waterflame - Skybound;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Skybound.mp3
+82;Waterflame - Space Pirates;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Space%20Pirates.mp3
+83;Waterflame - Striker;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Striker.mp3
+84;Waterflame - Thunderzone;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Thunderzone.mp3
+85;Waterflame - Time Machine;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Time%20Machine.mp3
+86;Waterflame - Toxic Sewers;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Waterflame%20-%20Toxic%20Sewers.mp3
+87;Xtrullor - Arcana;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Xtrullor%20-%20Arcana.mp3
+88;Xtrullor - Attacky Attack;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Xtrullor%20-%20Attacky%20Attack.mp3
+89;Xtrullor - Birth of the Sun;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Xtrullor%20-%20Birth%20of%20the%20Sun.mp3
+90;Xtrullor - Catharsis;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Xtrullor%20-%20Catharsis.mp3
+91;Xtrullor - Corrosive;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Xtrullor%20-%20Corrosive.mp3
+92;Xtrullor - Ego Death;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Xtrullor%20-%20Ego%20Death.mp3
+93;Xtrullor - I Hate You;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Xtrullor%20-%20I%20Hate%20You.mp3
+94;Xtrullor - Nirmiti;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Xtrullor%20-%20Nirmiti.mp3
+95;Xtrullor - Reverence;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Xtrullor%20-%20Reverence.mp3
+96;Xtrullor - Screamroom;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Xtrullor%20-%20Screamroom.mp3
+97;Xtrullor - Sheol;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Xtrullor%20-%20Sheol.mp3
+98;Xtrullor - Supernova;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Xtrullor%20-%20Supernova.mp3
+99;Xtrullor - The Armor of God;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Xtrullor%20-%20The%20Armor%20of%20God.mp3
+100;Xtrullor - Tria;https://huggingface.co/datasets/YLMJprojectadminister/GeometryDashEdition/resolve/main/audio/Xtrullor%20-%20Tria.mp3
