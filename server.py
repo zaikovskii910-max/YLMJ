@@ -147,20 +147,16 @@ async def check_and_prepare_alarms():
         )
         result = await session.execute(query)
         alarms_to_process = result.scalars().all()
-        
         if not alarms_to_process:
             return
-
         songs_query = select(TrackData.track)
         songs_result = await session.execute(songs_query)
         available_songs = songs_result.scalars().all()
         songs_list_str = ", ".join([f"'{t}'" for t in available_songs])
-
-	    songs_d_query = select(GeometryDashEdition.track)
+        songs_d_query = select(GeometryDashEdition.track)
         songs_d_result = await session.execute(songs_d_query)
         available_d_songs = songs_d_result.scalars().all()
         geometry_songs = ", ".join([f"'{t}'" for t in available_d_songs])
-
         for alarm in alarms_to_process:
             try:
                 user_result = await session.execute(select(User).where(User.id == alarm.user_id))
