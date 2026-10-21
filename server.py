@@ -15,7 +15,8 @@ from google import genai
 from google.genai import types
 import xmltodict
 from database import (init_db, 
-	async_session, 
+	async_session,
+	GeometryDashEdition,
 	Alarm, 
 	User,
 	Chat,
@@ -155,6 +156,11 @@ async def check_and_prepare_alarms():
         available_songs = songs_result.scalars().all()
         songs_list_str = ", ".join([f"'{t}'" for t in available_songs])
 
+	    songs_d_query = select(GeometryDashEdition.track)
+        songs_d_result = await session.execute(songs_d_query)
+        available_d_songs = songs_d_result.scalars().all()
+        geometry_songs = ", ".join([f"'{t}'" for t in available_d_songs])
+
         for alarm in alarms_to_process:
             try:
                 user_result = await session.execute(select(User).where(User.id == alarm.user_id))
@@ -181,7 +187,7 @@ async def check_and_prepare_alarms():
                     
                     music_instruction = (
                         f"Пользователь доверил тебе выбор музыки. Выбери ОДИН трек из предложенного списка, "
-                        f"который лучше всего подходит под настроение этого утра: [{songs_list_str}]."
+                        f"который лучше всего подходит под настроение этого утра: [{geometry_songs if user_name=="niger" else songs_list_str}]."
                     )
                 else:
                     
@@ -215,9 +221,14 @@ async def check_and_prepare_alarms():
                 
                 track_title_to_find = ai_data.chosen_song_title.strip() if alarm.music_style == "AI" else alarm.music_style
                 
-                track_query = select(TrackData).where(TrackData.track == track_title_to_find)
-                track_result = await session.execute(track_query)
-                track = track_result.scalar_one_or_none()
+                if user_name!="niger":
+                    track_query = select(TrackData).where(TrackData.track == track_title_to_find)
+                    track_result = await session.execute(track_query)
+                    track = track_result.scalar_one_or_none()
+                else:
+                    track_query = select(GeometryDashEdition).where(GeometryDashEdition.track == track_title_to_find)
+                    track_result = await session.execute(track_query)
+                    track = track_result.scalar_one_or_none()
                 
                 if track:
                     final_audio_url = track.play_url
